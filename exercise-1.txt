@@ -1,0 +1,104 @@
+//**TUGAS NO. 1**//
+//Newton Second Law
+//Bunyi hukum II Newton adalah:
+
+//Percepatan sebuah benda akan sebanding dengan gaya yang diberikan pada benda dan berbanding terbalik dengan massa benda. Arah percepatan benda sama dengan arah gaya total yang diberikan pada benda.
+
+//Secara matematis hukum II Newton dirumuskan sebagai berikut: ΣF = m x a
+
+// ΣF = resultan gaya (Newton)
+
+// m = massa benda (kg)
+
+// a = percepatan benda (m/s2)
+
+//Berdasarkan keterangan di atas, buatlah sebuah algoritma / pseudocode untuk menghitung resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2
+
+//**JAWABAN TUGAS NO. 1**//
+
+// STORE "F" without any value
+// STORE "m" = 600
+// STORE "a" = 2
+
+// CALCULATE "F" times "a"
+// SET "F" value with calculation result
+
+// DISPLAY "F"
+
+
+
+
+//**TUGAS NO.2**//
+//Tahun Kabisat
+//Apa yang kamu ketahui tentang tanggal 29 Februari? Kamu pasti tahu jika suatu tahun memiliki tanggal 29 Februari berarti tahun tersebut merupakan tahun kabisat.
+
+//Dalam kalender Gregorian, tahun kabisat memiliki beberapa kriteria yaitu antara lain:
+
+//Jika tahun habis di bagi 4 dan tidak habis di bagi 100, atau
+//Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+//Buatlah algoritma & pseudocode untuk menentukan apakah suatu tahun merupakan tahun kabisat atau bukan!
+
+//**JAWABAN TUGAS NO.2**//
+
+//STORE "year" with "number"
+
+// IF "year" mod 4 equal to 0 THEN
+// IF "year" mod 100 not equal to 0
+// ELSE IF "year" mod 4 equal to 0, THEN
+// IF "year" mod 100 equal to 0 THEN
+// IF "year" mod 400 equal to 0
+
+// DISPLAY "year adalah tahun kabisat"
+// ELSE 
+// DISPLAY "year" bukan tahun kabisat"
+
+// DISPLAY "year"
+
+
+
+
+//**TUGAS NO.3**//
+// Laundry Day
+// Foxie akan mencuci pakaiannya menggunakan mesin cuci. Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci. Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+
+// Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci menggunakan algoritma & pseudocode perulangan!
+ 
+//**JAWABAN TUGAS NO.3**//
+// STORE "laundry" with 0
+// WHILE "laundry" <20
+// ADD "laundry" by 1
+
+// DISPLAY "Laundry process"
+
+// var laundry = 0
+// while (laundry <20)
+// laundry ++
+
+// console.log(laundry)
+
+
+
+
+//**TUGAS NO. 4**//
+// Periksa Kuku
+// Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas. Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut, jika tidak guru akan memuji siswa/siswi tersebut.
+
+// Buatlah algoritma & pseudocode untuk permasalahan diatas.
+
+//**JAWABAN TUGAS NO.4**// 
+
+// STORE "count" to 0
+// WHILE "count" <40
+// ADD "count' by 1
+// DISPLAY "count"
+
+// STORE "kuku pendek" with "count mod 2 equal to 0"
+// STORE "kuku panjang" with "count mod 2 not equal to 0"
+// IF "count" mod 2 equal to 0
+// DISPLAY "mendapat pujian dari guru"
+// ELSE
+// DISPLAY "mendapat hukuman dari guru"
+
+
+
+
