@@ -20,7 +20,7 @@
 // STORE "m" = 600
 // STORE "a" = 2
 
-// CALCULATE "F" times "a"
+// CALCULATE "m" times "a"
 // SET "F" value with calculation result
 
 // DISPLAY "F"
