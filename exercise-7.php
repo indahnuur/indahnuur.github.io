@@ -85,9 +85,9 @@ $rows3 = 5;
 $hitung = 1;
 for( $karakter=""; ($karakter=$karakter . "*"); $hitung++ )
 {
-		echo $karakter . "\n";
-		if($hitung == $rows3 ){
-		break;
+	echo $karakter . "\n";
+	if($hitung == $rows3 ){
+	break;
 	}
 }
 ?>
