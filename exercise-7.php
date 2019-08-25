@@ -52,7 +52,16 @@ jika rows2 = 5
 *****
 *****
 
+/*JAWABAN NO. 2*/
 
+<?php
+for($i=0; $i < 5; $i++){
+  for($j=0; $j <5;  $j++){
+    echo "*";
+  }
+    echo"\n";
+}
+?>
 
 /* TUGAS NO.3
 */
